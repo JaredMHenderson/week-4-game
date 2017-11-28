@@ -72,7 +72,7 @@ var checkWin = function()
     else if (currentScore === targetNumber) {
         alert("You Win!");
         winCounter++;
-        $('#winCounter').html(lossCounter);
+        $('#winCounter').html(winCounter);
         startGame();
 
     }
